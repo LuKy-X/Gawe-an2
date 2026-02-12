@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Gawean2"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.LoginActivity"
             android:exported="true">
             <intent-filter>

@@ -90,4 +90,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="345dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="647dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

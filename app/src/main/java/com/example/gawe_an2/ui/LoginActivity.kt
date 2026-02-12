@@ -1,5 +1,7 @@
 package com.example.gawe_an2.ui
 
+
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -55,6 +57,7 @@ class LoginActivity : AppCompatActivity() {
 
                     toast(message)
                     saveUser(user)
+                    startActivity(Intent(this@LoginActivity, MainActivity::class.java))
                 }
 
                 is ApiResponse.Error -> {
